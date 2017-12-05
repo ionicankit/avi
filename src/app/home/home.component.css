@@ -1,0 +1,134 @@
+
+.about{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top:30px;
+  padding-bottom: 0;
+}
+h3{
+  text-align: center;
+}
+p{
+  text-align: justify;
+}
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
+
+body {
+  font-family: 'Cinzel Decorative', cursive;
+  background: url(https://s.cdpn.io/3/blurry-blue.jpg);
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+.embiggen {
+  font-size: 4em;
+  text-shadow: 0 0 40px #ffbab3;
+}
+article {
+  max-width: 600px;
+  overflow: hidden;
+  margin: 0 auto 50px;
+}
+
+.subtitle {
+  margin: 0 0 2em 0;
+}
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 0;
+  width: 600px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+.amp {
+  margin: 0 0 0.25em 0;
+}
+.amp span {
+  font-size: 0.7em;
+}
+
+.copy {
+  font: 1em Georgia, Serif;
+  text-align: justify;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+}
+.copy p {
+  margin: 0 0 1em 0;
+}
+article{
+  float: right;
+  margin-top: 50px;
+  margin-right: 50px;
+  color: #3c763d;
+}
+p{
+  color: #FFFFFF;
+  padding: 20px;
+  min-height: 450px;
+}
+h3{
+  color: #FFFFFF;
+  padding: 10px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 115px;
+  width: 240px;
+  margin-bottom: 20px;
+}
+
+
+
+
+.MBT-readmore{
+  background:#EB7F17;
+  text-align:right;
+  cursor:pointer;
+  color:#fff;
+  margin:5px 0;
+  float:right;
+  border:none;
+  padding:5px;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  font:bold 11px sans-serif;
+}
+.MBT-readmore:hover{
+  background:#FFB93C;
+}
+.MBT-readmore a {
+  color:#fff;
+  text-decoration:none;
+}
+.MBT-readmore a:hover {
+  color:#fff;
+  text-decoration:none;
+}
